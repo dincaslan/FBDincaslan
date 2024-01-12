@@ -5,12 +5,14 @@ body {
     font-family: 'Arial', sans-serif;
     padding: 0;
     box-sizing:border-box;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 heeader {
     background-color: #333;
+    color: #fff;
     padding: 20px 0;
-    color: #999 ;
     text-align: center;
 }
 
@@ -21,6 +23,11 @@ heeader {
 
 h1 {
     margin: 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
 }
 
 section {
@@ -29,10 +36,32 @@ section {
 
 h2 {
     color:#333;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.project {
+.project,
+.education,
+.award,
+.teaching,
+.volunteering,
+.contact {
     margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3,
+.education h3,
+.award h3,
+.teaching h2,
+.volunteering h2,
+.contact h2 {
+    color:#333;
 }
 
 ul {
@@ -43,6 +72,9 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    color: #555 ;
-    background-color: #fff ;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
