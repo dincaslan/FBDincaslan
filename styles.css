@@ -31,11 +31,11 @@ header p {
 }
 
 #about {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 #education {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 .school {
@@ -43,7 +43,7 @@ header p {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr; 
 }
@@ -70,6 +70,14 @@ header p {
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.skills ,
+.teaching ,
+.awards ,
+.volunteering {
+    padding: 20px;
+margin-bottom: 20px;
 }
 
 footer {
