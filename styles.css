@@ -5,13 +5,13 @@ body {
     font-family: 'Arial', sans-serif;
     padding: 0;
     box-sizing:border-box;
-    background-color: #333;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #F68E5F;
-    color: #586BA4;
+    color: #111;
     padding: 20px 0;
     text-align: center;
 }
@@ -39,7 +39,7 @@ header p {
 }
 
 .school {
-    background-color: #f5DD90;
+    background-color: #F5DD90;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -61,6 +61,29 @@ header p {
     display: contents;
 }
 
+#projects {
+    padding: 50px 0;
+}
+
+.projects {
+    background-color: #F68E5F;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#volunteering {
+    padding: 50px 0;
+}
+
+.volunteering {
+    background-color: #324376;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
 
 #contact {
     padding: 50px 0;
