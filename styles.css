@@ -65,7 +65,7 @@ header p {
     padding: 50px 0;
 }
 
-.projects {
+.project {
     background-color: #F68E5F;
     padding: 20px;
     border-radius: 8px;
@@ -97,8 +97,7 @@ ul {
 
 .skills ,
 .teaching ,
-.awards ,
-.volunteering {
+.awards {
     padding: 50px;
     margin-bottom: 30px;
 }
