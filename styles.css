@@ -73,12 +73,23 @@ header p {
     margin-bottom: 20px;
 }
 
+#skills ,
 #volunteering {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 .volunteer {
-    background-color: #585858;
+    background-color: #586BA4;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skill {
+    background-color: #064;
+    color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -95,10 +106,9 @@ ul {
     padding: 0;
 }
 
-.skills ,
 .teaching ,
 .awards {
-    padding: 50px;
+    padding: 20px;
     margin-bottom: 30px;
 }
 
