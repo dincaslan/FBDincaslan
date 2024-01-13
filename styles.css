@@ -74,6 +74,7 @@ header p {
 }
 
 #skills ,
+#publications ,
 #volunteering {
     padding: 10px 0;
 }
@@ -116,7 +117,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #324376;
-    color: #882255;
+    color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;

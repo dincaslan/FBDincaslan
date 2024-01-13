@@ -20,7 +20,7 @@
     <section id="about">
         <div class="container">
             <h2>ABOUT ME</h2>
-            <p>Bioassay developer with solid background of sequencing data analysis using clouds or servers with command line tools, downstream analysis and data visualization in R, and common bioinformatics tools.</p>
+            <p style="text-align: justify;">Bioassay developer with solid background of bioinformatics. These include extensive work on bulk and high-thoughput sequencing data management and high throughput data analysis using command line tools, open source software and R/RStudio. Moreover, I am willing to learn more for data analysis and computational biology.</p>
         </div>
     </section>
 
@@ -29,19 +29,20 @@
             <h2>SELECTED PROJECTS</h2>
             <div class="project">
                 <h3>High-Throughput Total RNA-Sequencing of Single Cells, PhD Thesis</h3>
-                <p style="text-align: justify">My PhD project was about the development of single cell high-throughput assay for total RNA sequencing, which could be easily applied on popular platforms like 10X Chromium. Later, I created a pipeline for total RNA-seq data analysis using open-source tools. I validated the assay on different cell lines and Peripheral Blood Mononuclear Cells (PBMCs).</p>
+                <p style="text-align: justify">There are three main parts of total-RNA-seq assay development during my PhD. <br>
+                    The first part is failures (or learning opportunities). Initially, the idea was to deliver an enzyme to modify RNA sequences with minimal perturbation of cells, then follow single-cell sequencing with available methods/kits for regular RNA-Seq. I tried two main approaches here: fixation-permeabilization and chemical transfection. I used several well-known fixatives and commercial reagents for this purpose (based on the literature as well). However, after noticing the significant RNA loss, I did not move forward. <br>
+                    The second part is testing the success of the modification of naturally non-polyA-tailed RNA biotypes and the suitability of commercially available beads for my assay. Not all beads or enzymes are produced equal. For example, well-known streptavidin-coated beads were inefficient for single-cell RNA capture if you aim 1-1 cell-to-bead ratio. Moreover, unfortunately, not all of them are suitable for each step of a single-cell high-throughput assay for sequencing or further modifications. Meanwhile, before any application on single-cell commercial platforms, I optimized the assay in low-bulk cell format considering the scaling of the volumes of respected reagents used for sequencing (i.e., in-house recipe using testing different lysis buffers, RT enzyme, TSO, etc.). <br>
+                    The last part is the application commercially available 10X Chromium platform for easy use in single-cell assays after confirming one-step modification and RT in the bulk format. Following this, another challenge was to create a pipeline for single-cell total-RNA-seq data analysis. I did data analysis using open-source tools and packages with modifications. Furthermore, I applied the assay on human Peripheral Blood Mononuclear Cells (PBMCs) after validation on human cell lines (K562, MCF7, HEK293T). We hope to share the findings soon.</p>
             </div>
             <div class="project">
                 <h3>High-Throughput Profiling of Secreting Single Cells</h3>
-                <p style="text-align: justify">In this side project, we aimed to develop an assay to profile secreting vs. non-secreting cells of pancreatic islets upon certain stimuli. (Not Completed)</p>
+                <p style="text-align: justify">The idea was to capture a peptide secreted with insulin to estimate the secretion profile and later sequence these cells to relate phenotype to the molecular transcriptome (again with minimal perturbation to secretion dynamics). There are two main parts of this bioassay as well. The first part is trial and error. I did extensive cell culture for cell surface modification and Fluorescent Activated Cell Sorting (FACS)-based fluorescent signal testing of each cell and each step. <br>
+                    There were multiple layers of cell surface modification required if you aim to add a cell surface receptor that is not naturally available on it. I started with FSL-biotin and NHS for the first layer. There were several drawbacks to these. For example, FSL requires optimization based on the lipid amount on it. It might work on K562 cells while optimizing, however, it might fail on the pancreatic cells. There were several considerations. Therefore, I shifted to using another chemical. <br>
+                    In the second part, I optimized the assay for CFSE similar to FSL-biotin (which was traditionally used for cell tracking). After fine-tuning the amount and incubation time, I developed a bioassay (with multiple modification layers on the cell surface) to capture secreted molecules of beta cells. Then, I applied it on the 10X Chromium platform to relate single-cell phenotype to the molecular transcriptome. This project has not concluded yet.</p>
             </div>
             <div class="project">
                 <h3>Tissue Specific Transcriptome of Zebrafish in AChE Mutant Embryos, MSc Thesis</h3>
                 <p style="text-align: justify">I analyzed tissue specificity (TS) of zebrafish, considering the dynamicity of gene expression, using specific metrics such as Tau, Tsi. Furthermore, I compared the outcome of different normalization methods on TS discovery. Then, I applied the TS analysis on publicly available datasets of mutant zebrafish embryos. I performed qPCRs for in vivo confirmations after isolating RNA of model zebrafish embryos. I further investigated the relationship between ache and the retinal genes by using the tools like Gene Onthology (GO).</p>
-            </div>
-            <div class="project">
-                <h3>Another Project</h3>
-                <p style="text-align: justify">Will be updated</p>
             </div>
         </div>
     </section>
@@ -98,7 +99,7 @@
 
     <section id="skills">
         <div class="container">
-            <h2>SELECTED SKILLS</h2>
+            <h2>SELECTED SKILLs</h2>
 
             <div class="skill">
                 <h3>Technical Skills</h3>
@@ -131,7 +132,7 @@
                 <h3>ISCB Student Council Active Member</h3>
                 <p style="text-align: justify">
                     Virtual seminars (webinar) team member in ISCB-SC and Organization team of Asian Student Council Symposium, #ASCS2022<br>
-                    Earth, 2018-2022
+                    Earth | 2018-2022
                 </p>
             </div>
 
@@ -139,7 +140,7 @@
                 <h3>ISCB-RSG Student Council Turkey</h3>
                 <p style="text-align: justify">
                     Previously social media team, symposium organization, later Med&Omics Turkey<br>
-                    Ankara, Turkey, 2011-2016
+                    Ankara, Turkey | 2011-2016
                 </p>
             </div>
         </div>
@@ -147,28 +148,29 @@
 
     <section id="teaching">
         <div class="container">
-            <h2>TEACHING and ASSISTANSHIP</h2>
-            <h3>BN2301</h3>
-            <p style="text-align: justify">
-                Fundamental Biochemistry and Biomaterials for Bioengineers, NUS<br>
-                Teaching Assistant (TA), 2020-2022
-            </p>
-            <h3>MBG326</h3>
-            <p style="text-align: justify">
-                Introduction to Bioinformatics, Bilkent University<br>
-                TA for introduction to bioinformatics and R/RStudio (e.g., common databases and tools, data analysis using Bioconductor/CRAN packages), 2017-2019
-            </p>
-            <h3>MBG223 and MBG302</h3>
-            <p style="text-align: justify">
-                Molecular Genetics and Molecular Biology of The Cell-II, Bilkent University<br>
-                MBG223 - TA for molecular cloning experiments: plasmid editing, restriction enzyme digestion, ligation and miniprep. MBG302 - TA for the cell culture experiments: scratch, kinase inhibition and crystal violet assays, 2017-2018
-            </p>
+            <h2>TEACHING</h2>
+                <h3>BN2301</h3>
+                <p style="text-align: justify">
+                    Fundamental Biochemistry and Biomaterials for Bioengineers, NUS<br>
+                    Teaching Assistant (TA) | 2020-2022
+                </p>
+                <h3>MBG326</h3>
+                <p style="text-align: justify">
+                    Introduction to Bioinformatics, Bilkent University<br>
+                    TA for introduction to bioinformatics and R/RStudio (e.g., common databases and tools, data analysis using Bioconductor/CRAN packages) | 2017-2019
+                </p>
+                <h3>MBG223 and MBG302</h3>
+                <p style="text-align: justify">
+                    Molecular Genetics and Molecular Biology of The Cell-II, Bilkent University<br>
+                    TA for molecular cloning experiments: plasmid editing, restriction enzyme digestion, ligation and miniprep. <br>
+                    TA for the cell culture experiments: scratch, kinase inhibition and crystal violet assays | 2017-2018
+                </p>
         </div>
     </section>
 
     <section id="awards">
         <div class="container">
-            <h2>AWARDS</h2>
+            <h2>AWARDs</h2>
             <div class="award">
                 <h3>NUS Research Scholarship</h3>
                 <p>Awarded by Singapore-MOE and NUS for PhD in Biomedical Engineering.<br> 
@@ -183,9 +185,17 @@
         </div>
     </section>
 
+    <section id="publications">
+        <div class="container">
+            <h2>LIST of PUBLICATIONs</h2>
+            <ul>
+                <li><a href="https://scholar.google.com/citations?user=QCC8PLgAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+            </ul>
+    </section>
+
     <section id="contact">
         <div class="container">
-            <h2>CONTACT</h2>
+            <h2 style="color: #b56">CONTACT</h2>
             <p>Feel fre to reach me though email or the alternative channels below:</p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/fbdincaslan/" target="_blank">LinkedIn</a></li>
@@ -196,7 +206,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 FATMA BETUL DINCASLAN. All rights reserved.</p>
+            <p>&copy; 2024 FATMA BETUL DINCASLAN | All rights reserved.</p>
         </div>
     </footer>
 
