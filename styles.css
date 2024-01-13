@@ -62,7 +62,7 @@ header p {
 }
 
 #projects {
-    padding: 50px 0;
+    padding: 10px 0;
 }
 
 .project {
@@ -79,8 +79,8 @@ header p {
 }
 
 .volunteer {
-    background-color: #586BA4;
-    color: #333;
+    background-color: #88CCEE;
+    color: #111;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -88,8 +88,8 @@ header p {
 }
 
 .skill {
-    background-color: #064;
-    color: #fff;
+    background-color: #44AA99;
+    color: #111;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -116,7 +116,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #324376;
-    color: #fff;
+    color: #882255;
     position: fixed;
     bottom: 0;
     width: 100%;
