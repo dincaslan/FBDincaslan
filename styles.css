@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-color: #F68E5F;
-    color: #111;
+    background-color: #324376;
+    color: #f4f4f4;
     padding: 20px 0;
     text-align: center;
 }
@@ -78,7 +78,7 @@ header p {
 }
 
 .volunteer {
-    background-color: #324376;
+    background-color: #585858;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -105,7 +105,7 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #586BA4;
+    background-color: #324376;
     color: #fff;
     position: fixed;
     bottom: 0;
